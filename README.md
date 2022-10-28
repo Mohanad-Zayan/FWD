@@ -36,22 +36,18 @@ Start the server
 
 ## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Query | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `filename` | `string` | **Required**.  |
-| `width` | `number` | **Optional**.  |
-| `height` | `number` | **Optional**.  |
-
-#### Get item
+#### Resize
 
 ```http
   GET /api/resize?filename=santamonica&width=200&height=200
 ```
+
+
+| Query | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `filename` | `string` | **Required**.  |
+| `width` | `number` | **Required**.  |
+| `height` | `number` | **Required**.  |
+
 
 
